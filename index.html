@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+<style>
+    body {
+        margin: 0;
+    }
+
+    #fundo {
+        background-color: #2061C9;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #caixinha {
+        background-color: white;
+        width: 300px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    #agrupamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #texto {
+       width: 250px;
+       border-radius: 5px;
+       padding: 10px;
+       border: 1px solid #cecece; 
+       margin-bottom: 20px;
+    }
+
+    button {
+        width: 80px;
+        background-color: #2061C9;
+        color: white;
+        text-align: center;
+        border: 1px solid #cecece;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+</style>
+</head>
+<body>
+ 
+<div id="fundo">
+    <div id="caixinha">
+        <div id="agrupamento">
+            <h1> Lista afazeres</h1>
+            <input type="text" id="texto" placeholder="Escreva aqui os afazeres"/>
+            <button> Add </button>
+        </div>
+ <div id="lista">
+        <ul>
+                
+        </ul>
+</div>
+    </div>
+</div>
+
+<script src="./treino10.js"></script>
+</body>
+</html> 
